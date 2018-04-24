@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BasicSQLiteActivity" />
+        <activity android:name=".ReadDBActivity" />
+        <activity android:name=".SqlLiteCRUDActivity"></activity>
     </application>
 
 </manifest>
