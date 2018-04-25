@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         if(view.getId()==R.id.mBtn01){  start(0);        }
         if(view.getId()==R.id.mBtn02){  start(1);        }
         if(view.getId()==R.id.mBtn03){  start(2);        }
-
+        if(view.getId()==R.id.mBtn04){  start(3);        }
 
     }
 

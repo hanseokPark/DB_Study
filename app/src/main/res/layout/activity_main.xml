@@ -44,4 +44,11 @@
         android:layout_height="wrap_content"
         android:text="@string/btnTitle03"
         android:onClick="mOnClick"/>
+    <Button
+        android:id="@+id/mBtn04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTitle04"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
 </LinearLayout>

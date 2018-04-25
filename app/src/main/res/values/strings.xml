@@ -5,4 +5,5 @@
     <string name="btnTitle01">Basic SQL</string>
     <string name="btnTitle02">SqlList CRUD</string>
     <string name="btnTitle03">AdapterView(Array, Simple, Cursor)</string>
+    <string name="btnTitle04">Custom Cursor Adapter</string>
 </resources>

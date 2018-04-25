@@ -19,7 +19,8 @@
         <activity android:name=".BasicSQLiteActivity" />
         <activity android:name=".ReadDBActivity" />
         <activity android:name=".SqlLiteCRUDActivity" />
-        <activity android:name=".AdapterViewActivity"></activity>
+        <activity android:name=".AdapterViewActivity" />
+        <activity android:name=".WordCursorActivity"></activity>
     </application>
 
 </manifest>
