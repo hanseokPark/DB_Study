@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="activityList">
+            <item>BasicSQLiteActivity</item>
+            <item>SqlLiteCRUDActivity</item>
+            <item>AdapterViewActivity</item>
+            <item>WordCursorActivity</item>
+        </string-array>
+
+        <string-array name="titles">
+            <item >Basic SQL</item>
+            <item >SqlLite CRUD</item>
+            <item >AdapterView (Array, Simple, Cursor)</item>
+            <item >Word Custom Cursor Adapter</item>
+        </string-array>
+
+        <string-array name="location">
+            <item>강원도</item>
+            <item>경기도</item>
+            <item>경상남도</item>
+            <item>서울특별시</item>
+            <item>울산광역시</item>
+        </string-array>
+</resources>
