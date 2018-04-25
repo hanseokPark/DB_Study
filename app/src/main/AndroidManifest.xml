@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".BasicSQLiteActivity" />
         <activity android:name=".ReadDBActivity" />
-        <activity android:name=".SqlLiteCRUDActivity"></activity>
+        <activity android:name=".SqlLiteCRUDActivity" />
+        <activity android:name=".AdapterViewActivity"></activity>
     </application>
 
 </manifest>

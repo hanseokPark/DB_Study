@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">DB_Study</string>
     <string name="mainTitle01">SQL Lite</string>
+    <string name="mainTitle02">AdapterView</string>
     <string name="btnTitle01">Basic SQL</string>
     <string name="btnTitle02">SqlList CRUD</string>
+    <string name="btnTitle03">AdapterView(Array, Simple, Cursor)</string>
 </resources>

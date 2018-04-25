@@ -29,4 +29,19 @@
         android:layout_height="wrap_content"
         android:text="@string/btnTitle02"
         android:onClick="mOnClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainTitle02"
+        android:gravity="center"
+        android:background="@color/colorTitle"
+        android:textSize="@dimen/titleSize"/>
+
+    <Button
+        android:id="@+id/mBtn03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTitle03"
+        android:onClick="mOnClick"/>
 </LinearLayout>
