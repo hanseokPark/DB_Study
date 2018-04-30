@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activitys">
+        <item>FileIOActivity</item>
+        <item>SharedPrefActivity</item>
+        <item>SharedPrefFragmentActivity</item>
+    </string-array>
+    <string-array name="titles">
+        <item>파일 Read Write</item>
+        <item>Activity에서 Preference 처리</item>
+        <item>Fragment에서 Preference 처리</item>
+    </string-array>
+    <string-array name="array_voice">
+        <item>카톡</item>
+        <item>카톡왔숑</item>
+        <item>카톡카톡</item>
+        <item>카톡이왔어요</item>
+    </string-array>
+
+</resources>
