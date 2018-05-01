@@ -4,11 +4,17 @@
         <item>FileIOActivity</item>
         <item>SharedPrefActivity</item>
         <item>SharedPrefFragmentActivity</item>
+        <item>SpannableActivity</item>
+        <item>WebViewActivity</item>
+        <item>SpinnerActivity</item>
     </string-array>
     <string-array name="titles">
         <item>파일 Read Write</item>
         <item>Activity에서 Preference 처리</item>
         <item>Fragment에서 Preference 처리</item>
+        <item>다양한 뷰(Spannable)</item>
+        <item>다양한 뷰(WebView)</item>
+        <item>다양한 뷰(Spinner, AutoCompleteTextViwe, ProgressBar, SeekBar)</item>
     </string-array>
     <string-array name="array_voice">
         <item>카톡</item>
@@ -16,5 +22,6 @@
         <item>카톡카톡</item>
         <item>카톡이왔어요</item>
     </string-array>
+
 
 </resources>

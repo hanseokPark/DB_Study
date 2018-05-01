@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +23,10 @@
         <activity android:name=".FileIOActivity" />
         <activity android:name=".ReadFileActivity" />
         <activity android:name=".SharedPrefActivity" />
-        <activity android:name=".SharedPrefFragmentActivity"></activity>
+        <activity android:name=".SharedPrefFragmentActivity" />
+        <activity android:name=".SpannableActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".SpinnerActivity"></activity>
     </application>
 
 </manifest>
