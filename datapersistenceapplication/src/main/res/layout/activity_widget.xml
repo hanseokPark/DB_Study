@@ -165,15 +165,24 @@
                     android:id="@+id/ratingbar02"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:rating="3"
+                    android:rating="2"
                     android:stepSize="0.2" />
 
                 <RatingBar
+                    style="?android:attr/ratingBarStyleIndicator"
                     android:id="@+id/ratingbar03"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:rating="4"
                     android:stepSize="2.5" />
+
+                <RatingBar
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ratingbar04"
+                    android:numStars="10"
+                    android:rating="7"/>
             </LinearLayout>
 
 

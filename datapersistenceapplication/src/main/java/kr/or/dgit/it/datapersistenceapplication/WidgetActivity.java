@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.RatingBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -15,6 +16,9 @@ public class WidgetActivity extends AppCompatActivity {
 
     SeekBar mSeekBar;
     TextView mVolume;
+
+    RatingBar mRating;
+    TextView mRateText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +47,17 @@ public class WidgetActivity extends AppCompatActivity {
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) { }
         });
+        //RatingBar
 
+        mRating = findViewById(R.id.ratingbar01);
+        mRateText = findViewById(R.id.ratetext);
+
+        mRating.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+            @Override
+            public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
+                mRateText.setText("Now Rate : " + rating);
+            }
+        });
     }
 
     public void mDecFirstClick(View view) {
