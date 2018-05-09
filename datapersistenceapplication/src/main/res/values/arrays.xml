@@ -8,6 +8,7 @@
         <item>WebViewActivity</item>
         <item>SpinnerActivity</item>
         <item>WidgetActivity</item>
+        <item>ActionBarActivity</item>
     </string-array>
     <string-array name="titles">
         <item>파일 Read Write</item>
@@ -17,6 +18,7 @@
         <item>다양한 뷰(WebView)</item>
         <item>다양한 뷰(Spinner, AutoCompleteTextViwe, ProgressBar, SeekBar)</item>
         <item>고급 위젯</item>
+        <item>액션바</item>
     </string-array>
     <string-array name="array_voice">
         <item>카톡</item>

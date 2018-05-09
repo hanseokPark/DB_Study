@@ -27,8 +27,11 @@
         <activity android:name=".SpannableActivity" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".SpinnerActivity" />
-        <activity android:name=".Widget" />
-        <activity android:name=".WidgetActivity"></activity>
+        <activity android:name=".WidgetActivity" />
+        <activity
+            android:name=".ActionBarActivity"
+            android:label="@string/title_activity_action_bar"
+            android:theme="@style/MainTheme"></activity>
     </application>
 
 </manifest>
