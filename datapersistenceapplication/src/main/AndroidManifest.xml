@@ -31,7 +31,16 @@
         <activity
             android:name=".ActionBarActivity"
             android:label="@string/title_activity_action_bar"
-            android:theme="@style/MainTheme"></activity>
+            android:theme="@style/MainTheme">
+            <intent-filter>
+                    <action android:name="kr.or.dgit.it.datapersistenceapplication.ACTION_BAR"/>
+                    <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+
+
+
+        </activity>
     </application>
 
 </manifest>
